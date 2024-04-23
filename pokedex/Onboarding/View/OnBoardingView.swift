@@ -16,7 +16,7 @@ struct OnBoardingView: View {
             ForEach(0..<viewModel.onBoardingTabs.count, id: \.self) {
                 index in
                 VStack {
-                    viewModel.onBoardingTabs[index].view
+                    viewModel.onBoardingTabs[index].image
                     
                         VStack {
                             Text(viewModel.onBoardingTabs[index].title)

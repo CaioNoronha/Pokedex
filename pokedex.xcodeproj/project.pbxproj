@@ -15,6 +15,7 @@
 		30E6D3F62BD8410C00E31540 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E6D3F52BD8410C00E31540 /* OnBoardingViewModel.swift */; };
 		30E6D3F82BD8426100E31540 /* OnBoardingTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E6D3F72BD8426100E31540 /* OnBoardingTab.swift */; };
 		30E6D3FA2BD8446800E31540 /* TabOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E6D3F92BD8446800E31540 /* TabOneView.swift */; };
+		30E6D3FC2BD86CB700E31540 /* TabTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E6D3FB2BD86CB700E31540 /* TabTwoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,15 +25,11 @@
 		30E6D3D92BD8110B00E31540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30E6D3DC2BD8110B00E31540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30E6D3E92BD8248300E31540 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
-		30E6D3ED2BD82B6F00E31540 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		30E6D3EE2BD82B6F00E31540 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		30E6D3EF2BD82B6F00E31540 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		30E6D3F02BD82B6F00E31540 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
-		30E6D3F12BD82B6F00E31540 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		30E6D3F22BD82BAA00E31540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		30E6D3F52BD8410C00E31540 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 		30E6D3F72BD8426100E31540 /* OnBoardingTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingTab.swift; sourceTree = "<group>"; };
 		30E6D3F92BD8446800E31540 /* TabOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneView.swift; sourceTree = "<group>"; };
+		30E6D3FB2BD86CB700E31540 /* TabTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +95,7 @@
 			children = (
 				30E6D3E92BD8248300E31540 /* OnBoardingView.swift */,
 				30E6D3F92BD8446800E31540 /* TabOneView.swift */,
+				30E6D3FB2BD86CB700E31540 /* TabTwoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,22 +119,9 @@
 		30E6D3EB2BD82B1D00E31540 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				30E6D3EC2BD82B2600E31540 /* Fonts */,
 				30E6D3D92BD8110B00E31540 /* Assets.xcassets */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		30E6D3EC2BD82B2600E31540 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				30E6D3F12BD82B6F00E31540 /* Poppins-Bold.ttf */,
-				30E6D3F02BD82B6F00E31540 /* Poppins-Italic.ttf */,
-				30E6D3EF2BD82B6F00E31540 /* Poppins-Medium.ttf */,
-				30E6D3EE2BD82B6F00E31540 /* Poppins-Regular.ttf */,
-				30E6D3ED2BD82B6F00E31540 /* Poppins-SemiBold.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +199,7 @@
 				30E6D3F82BD8426100E31540 /* OnBoardingTab.swift in Sources */,
 				30E6D3D82BD8110700E31540 /* ContentView.swift in Sources */,
 				30E6D3D62BD8110700E31540 /* pokedexApp.swift in Sources */,
+				30E6D3FC2BD86CB700E31540 /* TabTwoView.swift in Sources */,
 				30E6D3F62BD8410C00E31540 /* OnBoardingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

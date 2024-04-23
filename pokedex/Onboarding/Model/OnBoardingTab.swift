@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-public struct OnBoardingTab<Content:View> {
+public struct OnBoardingTab {
     var title: String
     var description: String
     var buttonText: String
-    var view: Content
+    var image: Image
 }
