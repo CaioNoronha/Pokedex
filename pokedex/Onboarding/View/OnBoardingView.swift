@@ -19,12 +19,12 @@ struct OnBoardingView: View {
                     viewModel.onBoardingTabs[index].view
                     
                         VStack {
-                            Text("Todos os pokémons em um só lugar")
+                            Text(viewModel.onBoardingTabs[index].title)
                                 .font(.title2)
                                 .foregroundColor(.primary)
                                 .padding()
                             
-                            Text("Acesse uma vasta lista de pokémons de todas as gerações já feitas pela Nintendo")
+                            Text(viewModel.onBoardingTabs[index].description)
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
 
